@@ -1,9 +1,26 @@
-body {
-    background-color:#40434F;
+:root {
+    --color-black: #3f454d;
+    --color-white: #ffffff;
+    --color-blue: #3b88c3;
+    --color-yellow: #fbbe28;
+    --color-pink: #fd7f84;
+    --color-light-gray: #dfdfdf;
 }
 
-.logo {
-    justify-content: center;
-    align-items: center;
-    
-}
+    body {
+        height: 100vh;
+        background-color: var(--color-black);
+        display: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        cursor: pointer;
+        transition: transform 300ms ease;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
