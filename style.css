@@ -10,12 +10,20 @@
     body {
         height: 100vh;
         background-color: var(--color-black);
-        display: column;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    .btn {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: transform 300ms ease;
+
+    }
     .logo {
         cursor: pointer;
         transition: transform 300ms ease;
