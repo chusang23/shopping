@@ -7,28 +7,11 @@
     --color-light-gray: #dfdfdf;
 }
 
-    body {
-        height: 100vh;
-        background-color: var(--color-black);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btn {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        transition: transform 300ms ease;
-
-    }
-    .logo {
-        cursor: pointer;
-        transition: transform 300ms ease;
-    }
-
-    .logo:hover {
-        transform: scale(1.1);
-    }
+body {
+    height: 100vh;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
